@@ -13,7 +13,7 @@ def printpolynomial(polynomial):
 
   
 
-print("Enter the degree of the polynomial you are dividing: ")
+print("Enter the degree/power of the polynomial you are dividing: ")
 degree1 = int(input())
 dividend = []
 divisor = []
@@ -22,7 +22,7 @@ for x in range(degree1+1):
   dividend.append(float(input()))
 
 
-print("Enter the coefficient of the polynomial you are dividing by: ")
+print("Enter the degree/power of the polynomial you are dividing by: ")
 degree2=int(input())
 
 for x in range(degree2+1):
